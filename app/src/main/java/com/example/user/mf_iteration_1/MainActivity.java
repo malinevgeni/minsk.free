@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toolbar;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.frame_layout, MapsClass.newInstance());
         transaction.commit();
+
 
         //Used to select an item programmatically
         //bottomNavigationView.getMenu().getItem(2).setChecked(true);

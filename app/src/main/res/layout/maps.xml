@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
     tools:context="com.example.user.mf_iteration_1.MapsClass">
-
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
@@ -20,4 +20,5 @@
         map:cameraTargetLat="53.902576"
         map:cameraTargetLng="27.551205"
         />
+
 </RelativeLayout>

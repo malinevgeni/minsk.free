@@ -2,6 +2,54 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
-android:layout_height="match_parent"
+android:layout_height="match_parent" android:background="#fff"
 tools:context="com.example.user.mf_iteration_1.MeetsClass">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?android:attr/colorControlHighlight"
+        android:minHeight="43dp"
+        android:theme="?attr/actionBarTheme" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="37dp"
+        android:theme="?attr/actionBarTheme" />
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:ems="5"
+        android:inputType="date"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="21.09.2017"
+        android:textAppearance="@style/BB_BottomBarBadge_Text"
+        android:textSize="20sp" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
